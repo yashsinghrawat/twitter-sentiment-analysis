@@ -1,5 +1,9 @@
 # 𝕏 Real-Time Twitter Sentiment Analysis Engine
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn-orange)
+![Streamlit](https://img.shields.io/badge/Deployed-Streamlit-green)
+![Status](https://img.shields.io/badge/Status-Live-success)
 
 A production-ready Natural Language Processing system that classifies tweets into **Positive** or **Negative** sentiment in real time.
 

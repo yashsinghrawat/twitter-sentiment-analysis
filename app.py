@@ -1,6 +1,9 @@
-st.set_page_config(page_title="Twitter Sentiment Analyzer", page_icon="🔥")
-
 import streamlit as st
+st.set_page_config(
+    page_title="Twitter Sentiment Analyzer",
+    page_icon="🔥",
+    layout="centered"
+)
 import joblib
 import re
 import string

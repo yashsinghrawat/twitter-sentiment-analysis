@@ -23,7 +23,7 @@ def clean_tweet(text):
     return text
 
 
-st.title("Real-Time Twitter Sentiment Analysis")
+st.title("Real-Time Twitter Sentiment Analysis Engine")
 
 tweet = st.text_area("Enter a Tweet")
 

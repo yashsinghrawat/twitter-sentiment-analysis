@@ -1,4 +1,5 @@
-# 🔥 Real-Time Twitter Sentiment Analysis Engine
+# \faTwitter\ Real-Time Twitter Sentiment Analysis Engine
+
 
 A production-ready Natural Language Processing system that classifies tweets into **Positive** or **Negative** sentiment in real time.
 

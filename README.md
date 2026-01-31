@@ -2,7 +2,7 @@
 
 A production-ready Natural Language Processing system that classifies tweets into **Positive** or **Negative** sentiment in real time.
 
-👉 **Live Application:** [INSERT_YOUR_STREAMLIT_LINK_HERE](https://lo9dtlnzp7owopfsuvtbt8.streamlit.app/#real-time-twitter-sentiment-analysis)
+👉 **Live Application:** [Project Link](https://lo9dtlnzp7owopfsuvtbt8.streamlit.app/#real-time-twitter-sentiment-analysis)
 
 ---
 

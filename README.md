@@ -119,6 +119,6 @@ It reflects the practical skills required to transition from experimentation to 
 
 ## 👨‍💻 Author
 
-**Yash Rawat**
+**Yash Singh Rawat**
 
 If you found this project interesting, feel free to connect or explore the live app!

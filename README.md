@@ -1,131 +1,123 @@
-🔥 Twitter Sentiment Analysis Engine
+# 🔥 Real-Time Twitter Sentiment Analysis Engine
 
-A production-ready Natural Language Processing system that classifies tweets into Positive or Negative sentiment in real time.
+A production-ready Natural Language Processing system that classifies tweets into **Positive** or **Negative** sentiment in real time.
 
-Built using classical NLP techniques and deployed as an interactive web application.
+👉 **Live Application:** INSERT_YOUR_STREAMLIT_LINK_HERE
 
-👉 Live App: (Paste your Streamlit link here)
+---
 
-⭐ Overview
+## 🚀 Project Overview
 
-This project implements an end-to-end machine learning pipeline for sentiment classification on Twitter data.
-It transforms raw tweets into meaningful predictions using TF-IDF vectorization and Logistic Regression.
+This project implements a complete end-to-end machine learning pipeline for analyzing sentiment in Twitter data.  
+It converts raw, unstructured tweets into meaningful predictions using TF-IDF feature engineering and Logistic Regression.
 
-The system is optimized for:
+Designed with a strong focus on **deployment, interpretability, and real-world usability**, this system demonstrates how classical NLP techniques can power fast and reliable inference engines.
 
-Real-time inference
+---
 
-Clean preprocessing
+## ⭐ Key Highlights
 
-High interpretability
+- ✅ End-to-End ML Pipeline  
+- ✅ Tweet-Specific Text Preprocessing  
+- ✅ TF-IDF Vectorization with Bigrams  
+- ✅ Logistic Regression Classifier  
+- ✅ Probability-Based Predictions  
+- ✅ Interactive Streamlit Web App  
+- ✅ Fully Deployed on Cloud  
 
-Lightweight deployment
+---
 
-Unlike deep learning-heavy solutions, this architecture prioritizes speed, explainability, and production simplicity.
+## 🧠 Machine Learning Pipeline
 
-🧠 Key Features
-
-✅ End-to-end ML pipeline
-✅ Tweet-specific preprocessing
-✅ TF-IDF feature engineering with n-grams
-✅ Logistic Regression classifier
-✅ Probability-based predictions
-✅ Interactive Streamlit UI
-✅ Fully deployed cloud application
-
-⚙️ Tech Stack
-
-Machine Learning
-
-Scikit-learn
-
-TF-IDF Vectorizer
-
-Logistic Regression
-
-Backend / Deployment
-
-Streamlit
-
-Python 3.11
-
-Tools
-
-GitHub
-
-PyCharm
-
-📊 Model Performance
-Metric	Score
-Accuracy	76.4%
-F1 Score	0.76
-
-Achieved strong performance despite the noisy and highly unstructured nature of Twitter data.
-
-🔍 Dataset
-
-Sentiment140 Dataset
-
-1.6 million labeled tweets
-
-Binary sentiment labels
-
-Real-world social media noise
-
-This makes the model robust for practical NLP scenarios.
-
-🏗️ ML Pipeline
+```
 Raw Tweets
    ↓
 Text Cleaning (URLs, mentions, punctuation removal)
    ↓
 TF-IDF Vectorization (1–2 grams)
    ↓
-Logistic Regression
+Logistic Regression Model
    ↓
 Real-Time Sentiment Prediction
+```
 
-🚀 Deployment
+---
 
-The model is deployed using Streamlit Community Cloud, enabling users to analyze sentiment instantly through a browser interface.
+## 📸 Application Preview
 
-This demonstrates the transition from:
+<img width="749" height="523" alt="image" src="https://github.com/user-attachments/assets/771830a2-031f-4fd1-b70c-131986caa418" />
 
-👉 Notebook experimentation
-→ Production-style ML system.
+<img width="749" height="523" alt="image" src="https://github.com/user-attachments/assets/bf8c4a38-daef-45c9-8cb5-18ee1b9f91d1" />
 
-💡 Why This Project Matters
 
-Most ML projects stop at training.
+## ⚙️ Tech Stack
 
-This project goes further by focusing on shipping a usable product.
+**Languages & Libraries**
+- Python 3.11  
+- Scikit-learn  
+- NumPy  
+- Joblib  
 
-It highlights practical engineering skills such as:
+**Deployment**
+- Streamlit Community Cloud  
 
-Model serialization
+**Development**
+- PyCharm  
+- GitHub  
 
-Dependency management
+---
 
-Environment setup
+## 📊 Model Performance
 
-Cloud deployment
+| Metric | Score |
+|--------|--------|
+| Accuracy | **~76%** |
+| F1 Score | **0.76** |
 
-UI integration
+Strong performance considering the highly noisy and informal nature of social media text.
 
-🔮 Future Improvements
+---
 
-Transformer-based sentiment models (BERT / DistilBERT)
+## 📁 Dataset
 
-Real-time tweet ingestion
+**Sentiment140**
 
-Multi-class sentiment (Positive / Neutral / Negative)
+- 1.6 million labeled tweets  
+- Binary sentiment classification  
+- Real-world Twitter data  
 
-Docker containerization
+This dataset enables the model to generalize well across diverse writing styles.
 
-CI/CD pipeline
+---
 
-👨‍💻 Author
+## 💡 Why This Project Stands Out
 
-Yash Rawat
+Most machine learning projects stop at model training.
 
-If you found this project interesting, feel free to connect!
+This project goes further by demonstrating **production-oriented ML engineering**, including:
+
+- Model serialization  
+- Environment management  
+- Cloud deployment  
+- Real-time inference  
+- User-facing interface  
+
+It reflects the practical skills required to transition from experimentation to shipped ML systems.
+
+---
+
+## 🔮 Future Improvements
+
+- Transformer-based models (BERT / DistilBERT)  
+- Neutral sentiment classification  
+- Real-time tweet ingestion  
+- Docker-based deployment  
+- CI/CD pipeline  
+
+---
+
+## 👨‍💻 Author
+
+**Yash Rawat**
+
+If you found this project interesting, feel free to connect or explore the live app!
